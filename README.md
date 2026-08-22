@@ -98,7 +98,7 @@ flowchart TD
 │   │   ├── Services/
 │   │   │   └── ai.services.js              # Gemini AI prompt & schema orchestration
 │   │   └── app.js                          # Express app configuration & CORS
-│   ├── .env                                # Backend environment configuration
+│   ├── .env.example                        # Template — copy to .env and fill in your values
 │   ├── package.json
 │   └── server.js                           # Entry point
 │
@@ -149,20 +149,28 @@ flowchart TD
 
 ## 🔐 Environment Variables
 
-Create a `.env` file in the `Backend/` directory:
+> **⚠️ NEVER commit your real `.env` file to GitHub.** The `.env` file is listed in `.gitignore` and will be excluded automatically. Only the safe `Backend/.env.example` template is tracked.
+
+Copy the example file and fill in your own values:
+
+```bash
+cp Backend/.env.example Backend/.env
+```
+
+Then edit `Backend/.env`:
 
 ```env
 # Server Port
 PORT=5000
 
 # MongoDB Connection String (Atlas or Local)
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/InterviewPrep
+MONGODB_URI=mongodb+srv://<your-username>:<your-password>@<your-cluster>.mongodb.net/<your-db-name>
 
-# Secret key for JWT signing
-JWT_SECRET=your_super_secret_jwt_key_here
+# Secret key for JWT signing — use a long random string
+JWT_SECRET=<your-strong-random-secret>
 
-# Google Gemini API Key
-GEMINI_API_KEY=your_google_gemini_api_key_here
+# Google Gemini API Key — get from https://aistudio.google.com/
+GEMINI_API_KEY=<your-gemini-api-key>
 ```
 
 ---
