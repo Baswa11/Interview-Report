@@ -149,8 +149,6 @@ flowchart TD
 
 ## 🔐 Environment Variables
 
-> **⚠️ NEVER commit your real `.env` file to GitHub.** The `.env` file is listed in `.gitignore` and will be excluded automatically. Only the safe `Backend/.env.example` template is tracked.
-
 Copy the example file and fill in your own values:
 
 ```bash
