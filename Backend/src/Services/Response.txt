@@ -1,0 +1,61 @@
+{
+  "candidateName": "Baswaraja Bondalkunta",
+  "positionApplied": "Software Engineer - Full Stack Developer",
+  "overallEvaluation": "The candidate is a highly suitable fit for the Full Stack Developer role. Despite being a recent graduate, they demonstrate a solid grasp of both frontend and backend technologies, particularly the MERN stack, which perfectly matches our core requirements. Their project on a 'Distributed Data Balancer' indicates an advanced grasp of backend architecture and systems programming beyond typical entry-level candidates.",
+  "fitScore": "9/10",
+  "recommendation": "Strongly Proceed to Technical Interview",
+  "skillsMatching": [
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL (MySQL)",
+    "REST APIs",
+    "Data Structures and Algorithms",
+    "Git & GitHub"
+  ],
+  "candidateStrengths": [
+    "Strong hands-on experience with the exact MERN stack requested in the job description.",
+    "Outstanding project experience in building a Distributed Data Balancer, showing knowledge of fault-tolerance, data replication, and parallel processing.",
+    "Well-rounded computer science foundation encompassing operating systems, DBMS, networks, and DSA."
+  ],
+  "gapsAndAreasOfImprovement": [
+    "No practical experience with cloud platforms like AWS, which was listed as a preferred qualification.",
+    "System Design and DSA skills are still self-admittedly being refined, which should be vetted during technical interviews."
+  ],
+  "suggestedInterviewQuestions": [
+    "Can you walk us through the architecture of your Distributed Data Balancer? How did you implement fault-tolerant data replication?",
+    "How do you manage state in your GreenCart application? When would you choose Redux or Context API over local component state?",
+    "Under what scenarios would you choose MongoDB over MySQL for a new module in our system?",
+    "What strategies would you use to secure and rate-limit the REST APIs built with Express.js?"
+  ]
+}
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+◇ injected env (4) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Server is running at http://localhost:5000
+Connected to MongoDB
+{
+  candidateName: 'Baswaraja Bondalkunta',
+  position: 'Software Engineer - Full Stack Developer',
+  education: 'B.Tech in Computer Science, Parul University',
+  skillsMatch: '90%',
+  technicalSkillsMatched: [
+    'React.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'MySQL/SQL',
+    'REST APIs',
+    'Git and GitHub',
+    'Data Structures and Algorithms'
+  ],
+  preferredSkillsMet: [
+    'Full-stack development experience',
+    'Solid grasp of backend engineering principles'
+  ],
+  preferredSkillsMissingOrInDevelopment: [ 'Cloud platforms like AWS', 'Practical system design experience' ],
+  projectsEvaluated: [],
+  evaluationSummary: []
+}
